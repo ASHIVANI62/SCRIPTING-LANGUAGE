@@ -1,0 +1,6 @@
+def m20(x,y)
+    return x == 20 || y == 20 || x + y == 20
+end
+print m20(15, 12),"\n" 
+print m20(80, 30),"\n" 
+print m20(15, 43)
