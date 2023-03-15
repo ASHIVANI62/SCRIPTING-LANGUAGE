@@ -1,0 +1,8 @@
+def ms(str, n)
+    return str*n
+end
+print ms('a', 1),"\n"
+print ms('a', 2),"\n"
+print ms('a', 3),"\n"
+print ms('a', 4),"\n"
+print ms('a', 5),"\n"
