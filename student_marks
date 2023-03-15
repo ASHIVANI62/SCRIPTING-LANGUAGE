@@ -1,0 +1,9 @@
+st_marks = Hash.new 0
+st_marks['Literature'] = 78
+st_marks['Science'] = 85
+st_marks['Math'] = 88
+total_marks = 0
+st_marks.each {|key,value|
+              total_marks +=value
+        } 
+puts "Total Marks: "+total_marks.to_s
