@@ -1,0 +1,6 @@
+def t(t1, t2)
+    return ( t1 < 0 && t2 > 100 ) || ( t1 > 100 && t2 < 0 );
+end
+print t(20, 2),"\n"
+print t(-3, 30),"\n"
+print t(7, 29)
