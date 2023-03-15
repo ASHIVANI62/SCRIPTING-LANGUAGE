@@ -1,0 +1,4 @@
+ar1 = ["Scripting Language", 4.5, Time.now]
+for array_element in ar1
+          puts array_element
+end
